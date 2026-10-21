@@ -1,0 +1,32 @@
+#include <isostream> 
+using namespace std;
+
+{
+float a, b;
+char aritmatika; 
+
+cout << "Selamat datang di Kalkulator Sederhana \n \n";
+cin >> a;
+cout << "Pilih opertaor (+, -, *, atau /"; 
+cin >> aritmatika;
+cout << "Masukan nilai kedua"; 
+cin >> b;
+
+cout << "\nHasil perhitungan: "; 
+cout << a << aritmatika << b << endl;
+
+if (aritmatika == '+';
+  {hasil = a + b;} 
+      else if (aritmatika == '-';
+              {hasil = a - b;}
+      else if (aritmatika == '*';
+              {hasil = a * b;}
+      else (aritmatika == '/';
+              { cout << "operator salah" << endl;}
+
+cout << " = " << hasil << endl;
+
+cin.get()
+return 0;
+}
+
